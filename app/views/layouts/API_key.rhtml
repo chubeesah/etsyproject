@@ -1,0 +1,9 @@
+<h1></h1>
+
+<% if @results%>
+  <ol>
+    <% @results.each do |result| %>
+      <li><%= result %></li>
+    <% end %>
+  </ol>
+<% end %>

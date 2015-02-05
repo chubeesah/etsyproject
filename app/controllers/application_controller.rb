@@ -1,5 +1,11 @@
 class ApplicationController < ActionController::Base
-  # Prevent CSRF attacks by raising an exception.
-  # For APIs, you may want to use :null_session instead.
-  protect_from_forgery with: :exception
+  def search
+    if params[:q]
+      response = Etsy::Request.get('/listings/active',
+                                    :include => ['Images', 'Shop']
+                                    :keywords => params[:q])
+    @results = JSON.parse(response.body)['results']
+    end
+    render :search
+  end
 end
