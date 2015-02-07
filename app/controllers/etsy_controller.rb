@@ -1,4 +1,4 @@
-class EtsyController < ActionController::Base
+class EtsyController < ApplicationController
   def search
     if params[:q]
       response = Etsy::Request.get('/listings/active',

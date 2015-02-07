@@ -1,8 +1,39 @@
-background {
 
+
+.top {
+  float: 
+  margin-left: 5px;
+  margin-top: 23px;
+  margin-bottom: 23px;
 }
+
 .etsy-title {
   color: #D94D1D; 
-  font-size: 3em;
+  font-size: 2em;
   font-weight: normal;
+  margin-right: 8px;
+}
+.search-bar {
+position: absolute;
+padding-bottom: 7px;
+padding-top: 1px;
+font-size: medium;
+width: 33%;
+height: 21px;
+}
+.search-button {
+  position: absolute;
+  background-color: #64B6CF;
+  border-color: #4CA0BA;
+  font-size: medium;
+  font-family: arial;
+  color: white;
+  margin-left: 188px;
+  font-weight: bold;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 188px;
+
 }
