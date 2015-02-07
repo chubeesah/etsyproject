@@ -2,19 +2,71 @@
 
 <html>
 <head>
-  <title></title>
+
+<title>Etsy Fake</title>
+
+<div class=top>
+  <span class=etsy-title>Etsy</span>
+  <input type="text" placeholder="Search for items or shops" required>
+  <input type="button" value="Search">
+  <input type="button" value="Sign In">
+  <span class=help-bar>Help</span>
+  <span class=register-bar>Register</span>
+  <input type="button" value="Sign In">
+</div>
+
 </head>
 <body>
+
+<div class=sidebar style = "position:relative">
+<li>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+<%="A Lot of Craziness"%>
+</li>
+</div>
 
 <h1></h1>
 
   <% if @results%>
-    <ol>
-      <% @results.each do %>
+      <% @results.each do |l| %>
         <li><%= @results %></li>
+  
+  <div class="box1">
+    <li>
+    <div class="image">
+      <img src=<%= l["Images"][0]["url_170x135"] %>>
+    </div>
+    <div class="price">
+      <%= l["price"] %>>
+    </div>
+    <div class="name">
+      <%= l["name"] %>>
+  </div>
+  </li>
+</div>
       <% end %>
-   </ol>
   <% end %>
+<div class=foot>
+<%="Related to master sword"%>
+<%="master sword replica"%>
+<%="hylian shield"%>
+<%="majora's mask"%>
+<%="zelda"%>
+<%="legend of zelda"%>
+<%="link cosplay"%>
+<%="fierce deity"%>
+<%="triforce"%>
+<%="monado"%>
+
+  
+</div>
 
 </body>
 </html>
