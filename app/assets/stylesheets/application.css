@@ -1,12 +1,15 @@
-
-
 .top {
-  float: 
-  margin-left: 5px;
-  margin-top: 23px;
-  margin-bottom: 23px;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 10px;
+  margin-top: -11px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-bottom: 20px;
 }
-
+.body {
+  background-color: #F5F5F1;
+}
 .etsy-title {
   color: #D94D1D; 
   font-size: 2em;
@@ -14,26 +17,80 @@
   margin-right: 8px;
 }
 .search-bar {
-position: absolute;
-padding-bottom: 7px;
-padding-top: 1px;
+position: relative;
+padding-bottom: 6px;
+padding-top: 4px;
 font-size: medium;
 width: 33%;
 height: 21px;
+margin: -4px;
 }
 .search-button {
-  position: absolute;
+  position: relative;
   background-color: #64B6CF;
   border-color: #4CA0BA;
   font-size: medium;
   font-family: arial;
   color: white;
-  margin-left: 188px;
   font-weight: bold;
   padding-bottom: 6px;
   padding-top: 6px;
   padding-left: 13px;
   padding-right: 13px;
-  margin-left: 188px;
+  cursor: pointer;
+}
+.browse-button{
+  position: relative;
+  background-color: white;
+  border-color: #E5E5E5;
+  font-size: small;
+  font-family: arial;
+  color: black;
+  font-weight: thin;
+  padding-bottom: 6px;
+  padding-top: 9px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 10px;
+  cursor: pointer;
 
 }
+.help-bar {
+  font-family: arial;
+  color: #0192b5;
+  position: relative;
+  margin-left: 160px;
+}
+.register-bar {
+  font-family: arial;
+  color: #0192b5;
+  position: relative;
+  margin-left: 10px;
+}
+.sign-in-button {
+  color: #0192b5;
+  border-color: #0192b5;
+  background-color: white;
+  font-family: arial;
+  font-size: medium;
+  padding: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.sidebar {
+    position:absolute;
+    top:103px; 
+    bottom:32px; 
+    left:0;
+    width:221px;
+    background: white;
+}
+.box {
+
+}
+
+
+
+
+
+

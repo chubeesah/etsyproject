@@ -5,29 +5,32 @@
 
 <title>Etsy Fake</title>
 
-<div class=top>
+<div class="top">
   <span class=etsy-title>Etsy</span>
   <input class="search-bar" type="text" placeholder="Search for items or shops" required>
   <input class="search-button" type="submit" value="Search">
+  <input class="browse-button" type="submit" value="Browse">
   <span class=help-bar>Help</span>
   <span class=register-bar>Register</span>
   <input class="sign-in-button" type="button" value="Sign In">
 </div>
 
 </head>
-<body>
+<body class="body">
 
-<div class=sidebar>
-<li>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
-<%="A Lot of Craziness"%>
+<div>
+<li class="sidebar">
+  <ol>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+    <%="A Lot of Craziness"%>
+  </ol>
 </li>
 </div>
 
@@ -37,16 +40,16 @@
       <% @results.each do |l| %>
         <li><%= @results %></li>
   
-  <div class="box1">
+  <div class="box">
     <li>
     <div class="image">
       <img src=<%= l["Images"][0]["url_170x135"] %>>
     </div>
     <div class="price">
-      <%= l["price"] %>>
+      <%= l["price"] %>
     </div>
     <div class="name">
-      <%= l["name"] %>>
+      <%= l["name"] %>
   </div>
   </li>
 </div>
