@@ -19,55 +19,56 @@
 <body class="body">
 
 <div>
-<li class="sidebar">
-  <ol>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-    <%="A Lot of Craziness"%>
-  </ol>
-</li>
+<ul class="sidebar">
+    <h4>All Categories</h4>
+    <li><%="A Lot of Craziness"%></li>
+    <li><%="Talented Artist Creations"%></li>
+    <li><%="Great Finds"%></li>
+    <li><%="Pizza"%></li>
+    <li><%="The Good Stuff"%></li>
+    <li><%="Hand-Crafted Tapestries"%></li>
+    <li><%="Silver Silverware"%></li>
+    <li><%="Used-To-Bes"%></li>
+    <li><%="Exhaustive List"%></li>
+    <li><%="Almost Through the List"%></li>
+    <li><%="'I'm ready Lancelot!'"%></li>
+    <li><%="Check This Out!"%></li>
+    <li><%="I'm SOOOOO Jealous"%></li>
+    <li><%="Cookies"%></li>
+</ul>
 </div>
 
-<h1></h1>
-
+<div class='container'>
   <% if @results%>
-      <% @results.each do |l| %>
-        <li><%= @results %></li>
-  
+  <% @results.each do |l| %>
   <div class="box">
     <li>
-    <div class="image">
-      <img src=<%= l["Images"][0]["url_170x135"] %>>
-    </div>
-    <div class="price">
-      <%= l["price"] %>
-    </div>
-    <div class="name">
-      <%= l["name"] %>
+      <div class="image">
+        <img src=<%= l["Images"][0]["url_170x135"] %>>
+      </div>
+      <div class="price">
+        <%= l["price"] %>
+      </div>
+      <div class="name">
+        <%= l["name"] %>
+      </div>
+    </li>
   </div>
-  </li>
 </div>
       <% end %>
   <% end %>
 <div class=foot>
-<%="Related to master sword"%>
-<%="master sword replica"%>
-<%="hylian shield"%>
-<%="majora's mask"%>
-<%="zelda"%>
-<%="legend of zelda"%>
-<%="link cosplay"%>
-<%="fierce deity"%>
-<%="triforce"%>
-<%="monado"%>
-
-  
+<h4><%="Related to"%></h4> 
+<h4 class="two"><%="master sword"%></h4>
+<li><%="master sword replica"%></li>
+<li><%="hylian shield"%></li>
+<li><%="majora's mask"%></li>
+<li><%="zelda"%></li>
+<li><%="legend of zelda"%></li>
+<li><%="link cosplay"%></li>
+<li><%="fierce deity"%></li>
+<li><%="triforce"%></li>
+<li><%="monado"%></li>
 </div>
 
 </body>

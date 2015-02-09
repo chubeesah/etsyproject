@@ -77,16 +77,56 @@ margin: -4px;
   cursor: pointer;
   margin-left: 10px;
 }
+.sidebar h4 {
+  color: black;
+}
 .sidebar {
     position:absolute;
     top:103px; 
-    bottom:32px; 
-    left:0;
-    width:221px;
+    padding-bottom: 15px;
+    width:180px;
     background: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: arial;
+    font-size: small;
+    color: #64B6CF;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.sidebar li{
+  padding-bottom: 5px;
+  list-style: none;
+}
+.container {
+  background-color: yellow;
+
 }
 .box {
-
+  text-align: center;
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.foot h4{
+  width: 100px;
+  font-family: arial;
+  padding-left: 160px;
+  font-weight: 200;
+}
+.foot h4.two {
+  margin-left: 80px;
+  margin-top: -40px;
+  font-family: arial;
+  width: 125px;
+  font-weight: bold;
+}
+.foot{
+  position: absolute;
+  margin-top: 80em;
+  font-family: arial;
+  list-style: none;
 }
 
 
