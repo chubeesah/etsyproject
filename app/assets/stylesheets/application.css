@@ -114,6 +114,7 @@ margin: -4px;
   font-family: arial;
   padding-left: 160px;
   font-weight: 200;
+  color: black
 }
 .foot h4.two {
   margin-left: 80px;
@@ -121,13 +122,61 @@ margin: -4px;
   font-family: arial;
   width: 125px;
   font-weight: bold;
+  color: black;
 }
 .foot{
   position: absolute;
   margin-top: 80em;
   font-family: arial;
   list-style: none;
+  color: #0192C2;
 }
+.a {
+  margin-left: 10em;
+  margin-bottom: 10px;
+}
+.heel{
+  position: absolute;
+  margin-top: 80em;
+  font-family: arial;
+  list-style: none;
+  color: #0192C2
+}
+.b {
+  margin-left: 22em;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.c {
+  margin-left: 22em;
+  margin-bottom: 10px;
+}
+.d {
+  margin-left: 22em;
+  margin-bottom: 10px;
+}
+.toe {
+  position: absolute;
+  margin-top: 80em;
+  margin-left: 10em;
+  font-family: arial;
+  list-style: none;
+  color: #0192C2
+}
+.e {
+  margin-left: 22em;
+  margin-bottom: 10px;
+  margin-top: 60px
+}
+.f {
+  margin-left: 22em;
+  margin-bottom: 10px;
+}
+.g {
+  margin-left: 22em;
+  margin-bottom: 10px;
+}
+
 
 
 
